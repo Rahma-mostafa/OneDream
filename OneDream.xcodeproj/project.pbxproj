@@ -3,27 +3,59 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5200DB10248FE70800744D37 /* AboutViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5200DB0F248FE70800744D37 /* AboutViewController.swift */; };
+		5200DB12248FF44600744D37 /* VideosViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5200DB11248FF44600744D37 /* VideosViewController.swift */; };
+		5200DB14248FF49700744D37 /* VideosCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5200DB13248FF49700744D37 /* VideosCell.swift */; };
+		5200DB16248FF5C000744D37 /* Video.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5200DB15248FF5C000744D37 /* Video.swift */; };
+		5200DB182493C2BC00744D37 /* CommentsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5200DB172493C2BC00744D37 /* CommentsViewController.swift */; };
 		52186E2F2486862600A65733 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52186E2E2486862600A65733 /* AppDelegate.swift */; };
 		52186E312486862600A65733 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52186E302486862600A65733 /* SceneDelegate.swift */; };
-		52186E332486862600A65733 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52186E322486862600A65733 /* ViewController.swift */; };
 		52186E362486862600A65733 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 52186E342486862600A65733 /* Main.storyboard */; };
 		52186E382486862800A65733 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 52186E372486862800A65733 /* Assets.xcassets */; };
 		52186E3B2486862800A65733 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 52186E392486862800A65733 /* LaunchScreen.storyboard */; };
+		52186E492486889B00A65733 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52186E482486889B00A65733 /* HomeViewController.swift */; };
+		522EB07024871D250087FB9D /* CountinuoCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 522EB06F24871D250087FB9D /* CountinuoCell.swift */; };
+		522EB0722487296A0087FB9D /* latestCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 522EB0712487296A0087FB9D /* latestCell.swift */; };
+		522EB07424872E750087FB9D /* LastSeenCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 522EB07324872E750087FB9D /* LastSeenCell.swift */; };
+		523068F5248BF53600B11CE7 /* ProfileTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 523068F4248BF53600B11CE7 /* ProfileTableViewController.swift */; };
+		523068F7248BFC6400B11CE7 /* DetialsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 523068F6248BFC6400B11CE7 /* DetialsViewController.swift */; };
+		5232089A2487C88A0033091A /* BaseController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 523208992487C88A0033091A /* BaseController.swift */; };
+		5232089C2487FD570033091A /* Rounded.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5232089B2487FD570033091A /* Rounded.swift */; };
+		524950E324943CAB00C6B006 /* CommentsCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 524950E224943CAB00C6B006 /* CommentsCell.swift */; };
+		524950E524943D5100C6B006 /* Comments.swift in Sources */ = {isa = PBXBuildFile; fileRef = 524950E424943D5100C6B006 /* Comments.swift */; };
+		ECEF8A4328D4B0B445A8515E /* Pods_OneDream.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3D3C3C55CD1DED6B9CE2B99E /* Pods_OneDream.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		3D3C3C55CD1DED6B9CE2B99E /* Pods_OneDream.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_OneDream.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		456635DE38A5D21187227505 /* Pods-OneDream.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OneDream.release.xcconfig"; path = "Target Support Files/Pods-OneDream/Pods-OneDream.release.xcconfig"; sourceTree = "<group>"; };
+		5200DB0F248FE70800744D37 /* AboutViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AboutViewController.swift; sourceTree = "<group>"; };
+		5200DB11248FF44600744D37 /* VideosViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideosViewController.swift; sourceTree = "<group>"; };
+		5200DB13248FF49700744D37 /* VideosCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideosCell.swift; sourceTree = "<group>"; };
+		5200DB15248FF5C000744D37 /* Video.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Video.swift; sourceTree = "<group>"; };
+		5200DB172493C2BC00744D37 /* CommentsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommentsViewController.swift; sourceTree = "<group>"; };
 		52186E2B2486862600A65733 /* OneDream.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = OneDream.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		52186E2E2486862600A65733 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		52186E302486862600A65733 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		52186E322486862600A65733 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		52186E352486862600A65733 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		52186E372486862800A65733 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		52186E3A2486862800A65733 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		52186E3C2486862800A65733 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		52186E482486889B00A65733 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		522EB06F24871D250087FB9D /* CountinuoCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CountinuoCell.swift; sourceTree = "<group>"; };
+		522EB0712487296A0087FB9D /* latestCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = latestCell.swift; sourceTree = "<group>"; };
+		522EB07324872E750087FB9D /* LastSeenCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LastSeenCell.swift; sourceTree = "<group>"; };
+		523068F4248BF53600B11CE7 /* ProfileTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileTableViewController.swift; sourceTree = "<group>"; };
+		523068F6248BFC6400B11CE7 /* DetialsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetialsViewController.swift; sourceTree = "<group>"; };
+		523208992487C88A0033091A /* BaseController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseController.swift; sourceTree = "<group>"; };
+		5232089B2487FD570033091A /* Rounded.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Rounded.swift; sourceTree = "<group>"; };
+		524950E224943CAB00C6B006 /* CommentsCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommentsCell.swift; sourceTree = "<group>"; };
+		524950E424943D5100C6B006 /* Comments.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Comments.swift; sourceTree = "<group>"; };
+		D486B1C1A2E42372D55F478B /* Pods-OneDream.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OneDream.debug.xcconfig"; path = "Target Support Files/Pods-OneDream/Pods-OneDream.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,6 +63,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				ECEF8A4328D4B0B445A8515E /* Pods_OneDream.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -42,6 +75,8 @@
 			children = (
 				52186E2D2486862600A65733 /* OneDream */,
 				52186E2C2486862600A65733 /* Products */,
+				CA93D8DAFEA78677D09B2DE8 /* Pods */,
+				B059151ECF1D9EFABBEE349E /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -56,15 +91,94 @@
 		52186E2D2486862600A65733 /* OneDream */ = {
 			isa = PBXGroup;
 			children = (
-				52186E2E2486862600A65733 /* AppDelegate.swift */,
-				52186E302486862600A65733 /* SceneDelegate.swift */,
-				52186E322486862600A65733 /* ViewController.swift */,
-				52186E342486862600A65733 /* Main.storyboard */,
-				52186E372486862800A65733 /* Assets.xcassets */,
-				52186E392486862800A65733 /* LaunchScreen.storyboard */,
+				52186E452486872500A65733 /* Resources */,
+				52186E472486877500A65733 /* Storyboards */,
+				52186E442486871700A65733 /* Controller */,
+				52186E432486870D00A65733 /* View */,
+				52186E422486868C00A65733 /* Model */,
 				52186E3C2486862800A65733 /* Info.plist */,
 			);
 			path = OneDream;
+			sourceTree = "<group>";
+		};
+		52186E422486868C00A65733 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				5232089B2487FD570033091A /* Rounded.swift */,
+				5200DB15248FF5C000744D37 /* Video.swift */,
+				524950E424943D5100C6B006 /* Comments.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		52186E432486870D00A65733 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				522EB06F24871D250087FB9D /* CountinuoCell.swift */,
+				522EB0712487296A0087FB9D /* latestCell.swift */,
+				522EB07324872E750087FB9D /* LastSeenCell.swift */,
+				5200DB13248FF49700744D37 /* VideosCell.swift */,
+				524950E224943CAB00C6B006 /* CommentsCell.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		52186E442486871700A65733 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				523208982487C8560033091A /* Core */,
+				52186E482486889B00A65733 /* HomeViewController.swift */,
+				523068F4248BF53600B11CE7 /* ProfileTableViewController.swift */,
+				523068F6248BFC6400B11CE7 /* DetialsViewController.swift */,
+				5200DB0F248FE70800744D37 /* AboutViewController.swift */,
+				5200DB11248FF44600744D37 /* VideosViewController.swift */,
+				5200DB172493C2BC00744D37 /* CommentsViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		52186E452486872500A65733 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				52186E2E2486862600A65733 /* AppDelegate.swift */,
+				52186E302486862600A65733 /* SceneDelegate.swift */,
+				52186E372486862800A65733 /* Assets.xcassets */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		52186E472486877500A65733 /* Storyboards */ = {
+			isa = PBXGroup;
+			children = (
+				52186E342486862600A65733 /* Main.storyboard */,
+				52186E392486862800A65733 /* LaunchScreen.storyboard */,
+			);
+			path = Storyboards;
+			sourceTree = "<group>";
+		};
+		523208982487C8560033091A /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				523208992487C88A0033091A /* BaseController.swift */,
+			);
+			path = Core;
+			sourceTree = "<group>";
+		};
+		B059151ECF1D9EFABBEE349E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3D3C3C55CD1DED6B9CE2B99E /* Pods_OneDream.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		CA93D8DAFEA78677D09B2DE8 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				D486B1C1A2E42372D55F478B /* Pods-OneDream.debug.xcconfig */,
+				456635DE38A5D21187227505 /* Pods-OneDream.release.xcconfig */,
+			);
+			path = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -74,9 +188,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 52186E3F2486862800A65733 /* Build configuration list for PBXNativeTarget "OneDream" */;
 			buildPhases = (
+				DBA1293CB70C7E9B465B513D /* [CP] Check Pods Manifest.lock */,
 				52186E272486862500A65733 /* Sources */,
 				52186E282486862500A65733 /* Frameworks */,
 				52186E292486862500A65733 /* Resources */,
+				42F728B2D5D17234165F43AE /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -133,14 +249,70 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		42F728B2D5D17234165F43AE /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-OneDream/Pods-OneDream-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-OneDream/Pods-OneDream-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-OneDream/Pods-OneDream-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DBA1293CB70C7E9B465B513D /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-OneDream-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		52186E272486862500A65733 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				52186E332486862600A65733 /* ViewController.swift in Sources */,
+				523068F5248BF53600B11CE7 /* ProfileTableViewController.swift in Sources */,
+				522EB07424872E750087FB9D /* LastSeenCell.swift in Sources */,
+				5200DB10248FE70800744D37 /* AboutViewController.swift in Sources */,
+				524950E324943CAB00C6B006 /* CommentsCell.swift in Sources */,
+				5232089C2487FD570033091A /* Rounded.swift in Sources */,
+				522EB0722487296A0087FB9D /* latestCell.swift in Sources */,
+				5200DB16248FF5C000744D37 /* Video.swift in Sources */,
+				5200DB14248FF49700744D37 /* VideosCell.swift in Sources */,
+				524950E524943D5100C6B006 /* Comments.swift in Sources */,
+				5232089A2487C88A0033091A /* BaseController.swift in Sources */,
+				5200DB182493C2BC00744D37 /* CommentsViewController.swift in Sources */,
+				5200DB12248FF44600744D37 /* VideosViewController.swift in Sources */,
 				52186E2F2486862600A65733 /* AppDelegate.swift in Sources */,
 				52186E312486862600A65733 /* SceneDelegate.swift in Sources */,
+				522EB07024871D250087FB9D /* CountinuoCell.swift in Sources */,
+				52186E492486889B00A65733 /* HomeViewController.swift in Sources */,
+				523068F7248BFC6400B11CE7 /* DetialsViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -282,6 +454,7 @@
 		};
 		52186E402486862800A65733 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D486B1C1A2E42372D55F478B /* Pods-OneDream.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -300,6 +473,7 @@
 		};
 		52186E412486862800A65733 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 456635DE38A5D21187227505 /* Pods-OneDream.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
